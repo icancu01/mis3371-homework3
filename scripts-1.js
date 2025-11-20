@@ -306,11 +306,11 @@ function review() {
   output += row("DOB", document.getElementById("dob").value);
   output += row("SSN", document.getElementById("ssn").value);
 
-  let gender = document.querySelector('input[name="gender"]:checked');
-  output += row("Gender", gender ? gender.value : "Not Selected");
-
   let bloodType = document.getElementById("bloodtype").value;
   output += row("Blood Type", bloodType ? bloodType : "Not Selected");
+
+  let gender = document.querySelector('input[name="gender"]:checked');
+  output += row("Gender", gender ? gender.value : "Not Selected");
 
   let smoke = document.querySelector('input[name="smoke"]:checked');
   output += row("Smoke", smoke ? smoke.value : "Not Selected");
@@ -346,6 +346,7 @@ function row(label, value) {
 
 
   
+
 
 
 
