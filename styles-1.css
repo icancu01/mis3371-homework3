@@ -79,11 +79,17 @@ body {
 
 }
 
-
 .error-msg {
     color: red;
     margin-left: 10px;
     white-space: nowrap;
+}
+
+#review table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
 }
 
 #review table {
