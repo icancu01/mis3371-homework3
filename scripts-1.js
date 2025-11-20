@@ -329,7 +329,7 @@ function review() {
   output += row("Allergies", allergies.length ? allergies.join(", ") : "None");
   
   let moodValue = parseInt(document.getElementById("mood").value);
-  output += row("Mood Slider", moodMap[moodValue]);
+  output += row("Mood", moodMap[moodValue]);
 
   output += row("Insurance Coverage", document.getElementById("insurancecov").value);
 
@@ -346,6 +346,7 @@ function row(label, value) {
 
 
   
+
 
 
 
