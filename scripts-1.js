@@ -309,6 +309,9 @@ function review() {
   let gender = document.querySelector('input[name="gender"]:checked');
   output += row("Gender", gender ? gender.value : "Not Selected");
 
+  let bloodType = document.getElementById("bloodtype").value;
+  output += row("Blood Type", bloodType ? bloodType : "Not Selected");
+
   let smoke = document.querySelector('input[name="smoke"]:checked');
   output += row("Smoke", smoke ? smoke.value : "Not Selected");
 
@@ -343,6 +346,7 @@ function row(label, value) {
 
 
   
+
 
 
 
